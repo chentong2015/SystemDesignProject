@@ -1,0 +1,21 @@
+TODO. Ask correct questions ?
+- 提的问题一定是要和设计题目相关，解决需要设计的问题
+- 适当扩展系统设计的Component，但需要避免多余的组件(没有时间讨论)
+1. Who is the users are ? Support Web and Mobile APP ?
+2. Functional Requirements:
+   - Core Services or APIs
+   - Main features of the system
+3. Non-functional requirements:
+   - Low latency: searching less than 1s
+   - High available: user can access services at anytime and from everywhere
+   - High reliable(safety): all use data will never be lost
+   - High consistent: share data between mobile and web ?
+
+TODO. Math 数据计算: API服务需要支撑多大的并发量 + 需要多大的数据存储空间
+1. The amount of traffic the system should handle / lot of users/data
+2. The amount of data the system should work with
+3. what availability is expected
+4. what response times are tolerable / low-latency
+
+TODO. Tradeoff based on real-life architectures 权衡选择 + 技术的选型
+(time, budget, knowledge, complexity, technologies currently available, etc.)

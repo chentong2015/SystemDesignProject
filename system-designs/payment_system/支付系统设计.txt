@@ -1,0 +1,4 @@
+TODO. Java Payment SDK
+支付系统底层通常会依赖第三方SDK或者类库
+https://github.com/stripe/stripe-java
+https://docs.open.alipay.com/54/103419/

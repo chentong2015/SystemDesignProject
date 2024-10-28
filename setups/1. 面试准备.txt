@@ -1,0 +1,29 @@
+1. Come prepared with your idea of System Design for the scenario presented.
+   It would be great if it could take into account our Tech and Product Guiding Principles.
+   Your performance will be also assessed based on your adherence to those values
+
+2. The requirement gathering part is crucial
+   Make sure to ask all of relevant questions and don't be afraid of circling back to those
+
+3. Be prepared to explain
+   How would you scale your system up
+   How you would implement monitoring
+   how would you make it sustainable and maintainable
+
+4. Build something you have experience inThe prompt: 基于自己的经验和技术
+   The solutions and technologies you adopt are ones you should own and can demonstrate to own,
+   Don't go for what's trendy, go for what you have experience in!
+   You will be challenged on your decisions.
+
+5. Let interviewers know your limits.
+   If you are not confident or don't know something just tell them.
+   It's better to admit when you don't know something than to try and play the guessing game.
+
+6. Think out loud and over communicate,
+   explain what you're trying to achieve and possible blockers or consequences of a choice,
+   addressing your thought process is part of the interview.
+
+7. Interviewers are going to be there to help you,
+   actively listen for their feedback and don't get stuck on a single solution if things are not working
+
+

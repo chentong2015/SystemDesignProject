@@ -1,0 +1,12 @@
+Newsfeed 首页推荐的消息页面
+Ranking and News Feed Generation 消息的生成是需要排序的(可以优先生成)
+
+TODO. 核心的设计思路
+1. 用户A post动态到应用服务器
+2. 应用服务器将数据持久化保存并备份
+3. 调用Newsfeed生成服务从持久化数据库中读取数据(动态信息+用户A的所有follower)
+4. 使用相关性算法生成排序结果 ！！并缓存
+5. 调用Notification服务从缓存中返回结果到用户页面
+
+Social media Newsfeed System:
+Facebook’s Newsfeed, Twitter Newsfeed, Instagram Newsfeed

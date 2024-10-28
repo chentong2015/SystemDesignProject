@@ -1,0 +1,39 @@
+Design Twitter Social Media:
+
+1. Clarifying Questions
+- 10 million users
+- 10 million tweets per day
+- 20 million tweet likes per day
+- 100 million HTTP requests to the site
+- 2 billion “follow” relations
+- Some users and tweets could generate an extraordinary amount of traffic
+
+2. High-level Design
+- handle all incoming requests to the application
+  - posting new tweets / writing
+  - following a user / writing
+  - liking a tweet / writing
+  - displaying data about users and tweets / reading
+- caching layer
+  - handle the incoming read requests
+  - storing the popular bits of data in memory without the need to hit db
+  只读可以从缓存中读取，只写可以同时修改缓存和DB数据
+- data storage to store all the data
+  - each request will create queries to run
+  - tweets will take up the majority of our storage’s space
+
+3. Low-level Issues
+- Database Schema
+  - not want to fetch all tweets of a user at once, showing the most recent 20
+    - filters by user_id but also orders by creation date (created_at) and limits the result.
+- Building a RESTful API
+  - fetch userprofile details
+    GET /api/users/<username>
+  - get the tweets of a given user ordered by date
+    GET /api/users/<username>/tweets
+  - Fetch the 4th page with 20 tweets 大量数据需要采用分页数据返回
+    GET /api/users/<username>/tweets?page=4
+  - posting a new tweet
+    POST /api/users/<username>/tweets
+
+4. Additional Considerations
