@@ -1,4 +1,6 @@
-TODO. 两种大方向的系统设计面试
+TODO. 两大方向系统设计面试: 积累经验并提高
+Clarify your ideas and come up with solutions quickly.
+
 设计系统来解决某中软件技术问题
 - 运行特定的技术架构来实现
 - 验证数据以及特定的Issue
