@@ -1,0 +1,11 @@
+https://www.hiredintech.com/courses/system-design
+
+系统设计文档
+https://github.com/checkcheckzz/system-design-interview
+
+系统设计主题
+https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md
+
+系统设计架构教程
+https://substack.com/@bytebytego/posts
+https://www.youtube.com/@ByteByteGo/playlists
