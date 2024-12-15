@@ -1,9 +1,7 @@
 https://www.hiredintech.com/courses/system-design
 
-系统设计文档
+系统设计文档/主题
 https://github.com/checkcheckzz/system-design-interview
-
-系统设计主题
 https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md
 
 系统设计架构教程
