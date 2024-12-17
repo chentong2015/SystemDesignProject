@@ -5,13 +5,13 @@ TODO. 1. Requirements Gathering
 4. availability=3? Search from today to 3 days later
 
 Functional Requirements:
-   - Core Services or APIs
-   - Main features of the system
+  - Core Services or APIs
+  - Main features of the system
 Non-functional requirements:
-   - Low latency: searching less than 1s
-   - High available: user can access services at anytime and from everywhere
-   - High reliable(safety): all use data will never be lost
-   - High consistent: share data between mobile and web ?
+  - Low latency: searching less than 1s
+  - High available: user can access services at anytime and from everywhere
+  - High reliable(safety): all use data will never be lost
+  - High consistent: share data between mobile and web ?
 
 TODO. 2. Capacity Estimation and Constraints
  Math 数据计算: API服务需要支撑多大的并发量 + 需要多大的数据存储空间
@@ -27,18 +27,20 @@ TODO. 3. High-level Design 系统整体的框架
 - Backend Service layer
 - Underlying Database layer
 
-TODO. 4. Deep into system 完善框架细节，自顶向下设计
+TODO. 4. Deep into system  完善框架Components组件
 - Load Balancer
 - REST API / Data Model
 - Caching Layer
 - DB Schema / DB backup
 
-TODO. 5. Scalability / Optimization 探讨系统分布式扩展性
+TODO. 5. Scalability / Optimization 系统分布式扩展性
 - Reliability: 系统必须具备可靠性
 - Scalability: 分布式系统的服务可扩展性
 - Hash Consistent: 分布式系统的数据一致性
 - DB Duplication / Data Sharding 拆分和备份问题
 - Monitoring: 服务的监控
 
-TODO. 6. Trade-off & Known Issues + bottlenecks技术瓶颈
-(time, budget, knowledge, complexity, technologies currently available, etc.)
+TODO. 6. Security & Bottlenecks 安全问题 & 技术瓶颈
+- Security Issues 服务安全限制(Permission)
+- Known Issues
+- time, budget, knowledge, complexity
