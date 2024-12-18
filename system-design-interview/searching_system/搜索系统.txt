@@ -1,3 +1,7 @@
-搜索系统题目:
 Design a system that allows patients to search for and book a practitioner.
 The system should handle searching for doctors based on location, specialty, and availability.
+
+Searching System 系统应该缓存什么数据 ?
+- 提前预加载Hot Searching Data热搜索数据
+- 根据用户新搜索的条件，动态添加高频访问的数据(基于查询条件作为key)
+- 当缓存数据过多时，根据算法来删除不常用的数据

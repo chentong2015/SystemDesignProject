@@ -1,2 +1,6 @@
-预定系统题目:
 Design a system to support booking, rescheduling, and canceling appointments.
+
+Booking System 系统应该缓存什么数据 ?
+- 缓存用户预定的结果(缓冲一定的时间)，用户查看时直接从缓存中返回
+- 当用户更新时，同步更新到DB和Cache中
+- 当缓存数据过多时，根据算法来删除不常用的数据
