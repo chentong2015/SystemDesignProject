@@ -1,0 +1,13 @@
+TODO. Scaling up machine 单机/单体架构
+What kind of load can be handled by a single machine ?
+  - Concurrency threads per machine
+What is load that definitely needs more computing power ?
+  - Is there some CPU-intensive computations
+
+After a given point the hardware isn’t capable of handling all the requests
+If you only have one machine, and it goes down your whole application is down
+
+TODO. Scaling out machine 集群架构: 避免单点挂断 + 保证多实例部署
+Spreads the computations over a number of machines and distributes the load across them
+Use load balancer to handle initial traffic
+Use load balancer to send requests to a set of servers running one or more instances of APP

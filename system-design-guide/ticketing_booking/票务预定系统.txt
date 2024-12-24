@@ -1,5 +1,10 @@
 Ticketing Booking System: bookmyshow.com, ticketmaster.com
 
+Searching系统应该缓存什么数据 ?
+- 提前预加载Hot Searching Data热搜索数据
+- 根据用户新搜索的条件，动态添加高频访问的数据(基于查询条件作为key)
+- 当缓存数据过多时，根据算法来删除不常用的数据
+
 票务预定系统应该缓存什么数据 ?
 - 缓存用户预定的结果(缓冲一定的时间)，用户查看时直接从缓存中返回
 - 当用户更新时，同步更新到DB和Cache中
