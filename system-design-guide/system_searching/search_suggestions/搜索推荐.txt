@@ -1,4 +1,0 @@
-Search Suggestions System
-https://leetcode.com/problems/search-suggestions-system/
-
-搜索推荐系统: 负责根据用户的输入，自动补全并推荐合适的关键词

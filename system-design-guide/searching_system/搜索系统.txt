@@ -1,0 +1,5 @@
+Design a system that allows storage and searching over all the user tweets.
+
+搜索系统的高性能本质上:
+- 依赖高效的“数据存储系统”来保证高性能
+- 依赖高效的“数据检索(内存，DB，Cache)”来保证低延迟
