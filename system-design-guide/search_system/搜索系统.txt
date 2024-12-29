@@ -3,3 +3,8 @@ Design a system that allows storage and searching over all the user tweets.
 搜索系统的高性能本质上:
 - 依赖高效的“数据存储系统”来保证高性能
 - 依赖高效的“数据检索(内存，DB，Cache)”来保证低延迟
+
+Searching系统应该缓存什么数据 ?
+- 提前预加载Hot Searching Data热搜索数据
+- 根据用户新搜索的条件，动态添加高频访问的数据(基于查询条件作为key)
+- 当缓存数据过多时，根据算法来删除不常用的数据
