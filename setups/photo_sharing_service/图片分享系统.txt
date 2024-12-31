@@ -1,0 +1,2 @@
+Social networking service which enables its users
+to upload and share their photos and videos with other users.
