@@ -1,0 +1,5 @@
+Distributed file storage:
+- Hadoop Distributed File System (HDFS)
+- Amazon Simple Storage Service (S3)
+
+文件存储系统支持存储大量文件数据
