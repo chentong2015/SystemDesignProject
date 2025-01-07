@@ -1,0 +1,4 @@
+File hosting service: Dropbox. Google Drive, OneDrive
+
+使用Cloud云存储, 同步本地目录中的数据
+Folder workspace on local device <-> Cloud Folder storage Sync

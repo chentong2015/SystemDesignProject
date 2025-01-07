@@ -9,6 +9,3 @@ https://www.youtube.com/@ByteByteGo/playlists
 参考教程
 https://www.hiredintech.com/courses/system-design
 https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction
-
-系统设计绘图板
-https://excalidraw.com/
