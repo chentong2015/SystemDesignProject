@@ -41,6 +41,6 @@ TODO. 5. Scalability / Optimization 系统分布式扩展性
 - Monitoring: 服务的监控
 
 TODO. 6. Security & Bottlenecks 安全问题 & 技术瓶颈
-- Security Issues 服务安全限制(Permission)
+- Security Issues: 权限安全，数据安全(不丢失)
+- Time, Budget, Knowledge, Complexity
 - Known Issues
-- time, budget, knowledge, complexity
