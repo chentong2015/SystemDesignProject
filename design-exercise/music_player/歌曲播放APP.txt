@@ -1,0 +1,15 @@
+设计一个最近播放歌曲列表 - Amazon Loop
+1. 用户能够一直点歌曲，听歌
+   Searching list 搜索列表
+   Play list 播放列表
+      - music2 根据播放来刷新推荐
+        - music22
+        - music222
+      - music1 相关的搜索结果
+      - music3
+   Topic list 特定主题歌曲
+      - music
+   Favorite List 收藏的歌曲
+      - music
+2. 能够实时返回用于最近听过的20首歌曲
+   Root -> music1 -> music2 -> .... music20 通过链表实时更新

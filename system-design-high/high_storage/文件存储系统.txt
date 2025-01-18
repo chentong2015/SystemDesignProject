@@ -1,5 +1,6 @@
 Distributed file storage:
+分布式文件存储系统支持存储大量的文件，图片，视频
+
 - Hadoop Distributed File System (HDFS)
 - Amazon Simple Storage Service (S3)
-
-文件存储系统支持存储大量文件数据
+- GlusterFS

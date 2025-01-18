@@ -1,4 +1,4 @@
-API Rate Limiter
+API Rate Limiter - Amazon Loop
 Throttle users based upon the number of the requests they are sending.
 
 实战场景分析：
