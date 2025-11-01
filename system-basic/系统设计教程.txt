@@ -1,0 +1,15 @@
+系统设计架构教程/文档
+https://github.com/checkcheckzz/system-design-interview
+https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md
+
+https://substack.com/@bytebytego/posts
+https://www.hiredintech.com/courses/system-design
+
+https://www.youtube.com/@ByteByteGo/playlists
+https://www.youtube.com/@hello_interview/playlists
+https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction
+
+绘图设计工具平台
+https://www.yuque.com     phone/TCHong15
+https://www.processon.com wechat/chen2017 TCHong17
+https://excalidraw.com
