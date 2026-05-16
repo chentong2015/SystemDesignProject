@@ -2,12 +2,12 @@
 - 依赖高效的“数据存储系统”来保证高性能
 - 依赖高效的“数据检索(内存，DB，Cache)”来保证低延迟
 
-Searching系统应该缓存什么数据 ?
-- 提前预加载Hot Searching Data热搜索数据
+Searching系统应该缓存什么数据:
+- Hot Searching Data 提前预加载热搜索数据
 - 根据用户新搜索的条件，动态添加高频访问的数据(基于查询条件作为key)
 - 当缓存数据过多时，根据算法来删除不常用的数据
 
-Elastic Searching System什么是弹性搜素系统?
+Elastic Searching System 弹性搜素系统:
 https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html
 https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/getting-started-java.html
 https://spring.io/projects/spring-data-elasticsearch
