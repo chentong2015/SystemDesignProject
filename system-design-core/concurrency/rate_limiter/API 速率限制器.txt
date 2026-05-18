@@ -1,9 +1,0 @@
-API Rate Limiter - Amazon Loop
-Throttle users based upon the number of the requests they are sending.
-
-TODO: 实战场景: 短时间内具有高并发API请求，处理瞬时高峰值请求
-- 对API请求进行限流
-- 使用多级缓存系统
-- 消息队列异步处理
-
-com.google.common.util.concurrent.RateLimiter;
