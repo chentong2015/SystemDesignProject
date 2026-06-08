@@ -31,7 +31,8 @@ Design Twitter Social Media:
     GET /api/users/<username>
   - get the tweets of a given user ordered by date
     GET /api/users/<username>/tweets
-  - Fetch the 4th page with 20 tweets 大量数据需要采用分页数据返回
+  - Fetch the 4th page with 20 tweets
+    大量数据需要采用分页数据返回
     GET /api/users/<username>/tweets?page=4
   - posting a new tweet
     POST /api/users/<username>/tweets

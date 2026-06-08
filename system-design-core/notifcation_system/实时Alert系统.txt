@@ -1,0 +1,10 @@
+Design a near real time stock price alert system.
+You basically receive time series of stock prices and alert the user
+when the stock price 'crosses' the price they set in their alert.
+
+Tips:
+Receive prices over kafka, send the notifications over kafka,
+then figure out how to optimize the alert query,
+probably end up with some sort of in memory solution.
+
+CHAPTER 10: DESIGN A NOTIFICATION SYSTEM
