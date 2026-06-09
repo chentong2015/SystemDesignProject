@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>system-design-concurrency</artifactId>
+    <artifactId>system-concurrency</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>rate-limiter</module>
