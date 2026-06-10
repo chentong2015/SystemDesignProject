@@ -1,0 +1,7 @@
+实战项目设计:
+1. Design a notification service
+2. Design a notification system for price alerts.
+3. Design a near real time stock price alert system.
+
+You basically receive time series of stock prices and alert the user
+when the stock price 'crosses' the price they set in their alert.

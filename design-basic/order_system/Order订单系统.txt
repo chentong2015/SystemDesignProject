@@ -1,2 +1,4 @@
-1. Design a trading order system
-2. Design an order Management System
+订单管理系统, 和业务逻辑强关联
+Design an order management system
+- Design a trading order system
+- Design a stock order processing system.

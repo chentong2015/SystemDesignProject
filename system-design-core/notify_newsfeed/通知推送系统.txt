@@ -1,0 +1,10 @@
+TODO. Newsfeed 设计思路流程
+1. 用户A Post动态到应用服务器
+2. 应用服务器将数据持久化保存并备份
+3. 调用Newsfeed生成服务从持久化数据库中读取数据(动态信息+用户A的所有followers)
+4. 使用Ranking相关性算法生成排序结果并缓存(优先生成，避免生成的延迟性)
+5. 调用Notification服务从缓存中返回结果到用户页面
+
+Ranking and News Feed Generation 核心排序算法
+Fetch the latest, most popular and relevant photos of the people the user follows.
+(based on recency, likeness, etc.)
