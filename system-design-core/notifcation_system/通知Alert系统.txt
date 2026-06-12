@@ -5,3 +5,8 @@
 
 You basically receive time series of stock prices and alert the user
 when the stock price 'crosses' the price they set in their alert.
+
+实时系统要求:
+- Alert 通知的类型 ?
+- Latency 最低延迟时间 ?
+- Active User 活跃用户数量 ?
