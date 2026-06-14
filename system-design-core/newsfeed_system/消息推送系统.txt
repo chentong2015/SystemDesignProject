@@ -1,0 +1,10 @@
+TODO. Newsfeed 设计思路流程
+1. 用户Post动态到应用服务器
+2. 应用服务器将数据持久化保存并备份
+3. 使用Ranking相关性算法生成Feed结果并缓存(主动Write或被动Read)
+4. 调用Newsfeed生成服务从持久化数据库中读取数据(动态信息+用户A所有followers)
+5. 调用Notification服务从缓存中返回结果到用户页面
+
+- Facebook news feed
+- Instagram feed
+- Twitter feed

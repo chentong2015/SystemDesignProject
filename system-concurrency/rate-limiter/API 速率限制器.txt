@@ -1,0 +1,21 @@
+API Rate Limiter - Amazon Loop
+Throttle users based upon the number of the requests they are sending.
+
+TODO: 实战场景: 短时间内具有高并发API请求，处理瞬时高峰值请求
+- 对API请求进行限流
+- 使用多级缓存系统
+- 消息队列异步处理
+
+TODO. Bucket4j 研究限速器的实现原理(设计思路)
+Java rate-limiting library that is mainly based on the token-bucket algorithm
+https://bucket4j.com/8.17.0/toc.html
+
+#Rate limit 限流属性的配置
+bucket4j.enabled=true
+bucket4j.filters[0].cache-name=buckets
+bucket4j.filters[0].url=.*
+bucket4j.filters[0].rate-limits[0].bandwidths[0].capacity=5
+bucket4j.filters[0].rate-limits[0].bandwidths[0].time=10
+bucket4j.filters[0].rate-limits[0].bandwidths[0].unit=seconds
+
+com.google.common.util.concurrent.RateLimiter;
