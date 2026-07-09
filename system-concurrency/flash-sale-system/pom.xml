@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <version>1.0-SNAPSHOT</version>
-    <artifactId>high-spike-system</artifactId>
+    <artifactId>flash-sale-system</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
