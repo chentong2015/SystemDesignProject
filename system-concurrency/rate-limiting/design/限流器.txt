@@ -1,10 +1,11 @@
-Rate Limiter 限流器: 在特定时间区间内限制流量
+Rate Limiter 限流器: 在特定时间区间内限制流量，直接拒绝(区别Queue排队等待)!!
 - 限制对API的请求数量
 - 限制对方法的高频调用/执行逻辑
 
 TODO. 高性能限流框架的实现
 https://chatgpt.com/c/6a0ae4fb-6cfc-8326-aa5c-e8f3d9bb3138
 com.google.common.util.concurrent.RateLimiter;
+https://leetcode.com/discuss/post/124558/uber-rate-limiter-by-cs_gator-pb8f/
 
 Bucket4j 研究限速器的实现原理(设计思路)
 https://bucket4j.com/8.17.0/toc.html
