@@ -1,6 +1,7 @@
 Rate Limiter 限流器: 在特定时间区间内限制流量，直接拒绝(区别Queue排队等待)!!
 - 限制对API的请求数量
 - 限制对方法的高频调用/执行逻辑
+- 限制对DB请求的数量
 
 TODO. 高性能限流框架的实现
 https://chatgpt.com/c/6a0ae4fb-6cfc-8326-aa5c-e8f3d9bb3138
