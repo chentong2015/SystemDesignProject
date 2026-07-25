@@ -1,2 +1,11 @@
-- Ask clarification Questions
-- Calculation
+URL Shortener
+Notification System
+Search Index
+Chat System
+Distributed Cache
+
+Design YouTube Video Upload Service
+Design Notification System
+Design Recommendation Pipeline (偏高层)
+Design Distributed Cache
+Design Search Service
