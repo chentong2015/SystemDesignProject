@@ -1,4 +1,0 @@
-订单管理系统, 和业务逻辑强关联
-Design an order management system
-- Design a trading order system
-- Design a stock order processing system.
