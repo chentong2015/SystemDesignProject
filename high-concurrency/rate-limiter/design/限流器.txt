@@ -3,6 +3,8 @@ Rate Limiter 限流器: 在特定时间区间内限制流量，直接拒绝(区�
 - 限制对方法的高频调用/执行逻辑
 - 限制对DB请求的数量
 
+使用限流器(Rate Limiter)限制可疑的高并发请求
+
 TODO. 高性能限流框架的实现
 https://chatgpt.com/c/6a0ae4fb-6cfc-8326-aa5c-e8f3d9bb3138
 com.google.common.util.concurrent.RateLimiter;

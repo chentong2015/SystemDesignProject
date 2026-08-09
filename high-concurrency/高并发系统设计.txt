@@ -1,0 +1,10 @@
+TODO: 系统必须支持短时间内高并发请求，处理瞬时高峰数据
+
+- Scaling up machine 单机/单体架构
+What kind of load can be handled by a single machine ?
+What is load that definitely needs more computing power ?
+
+- Scaling out machine 集群架构/多实例部署
+Spreads the computations over a number of machines and distributes the load across them
+Use load balancer to handle initial traffic
+Use load balancer to send requests to a set of servers running one or more instances of APP
