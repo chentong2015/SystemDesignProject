@@ -1,0 +1,7 @@
+Extract -> Transform -> Load (ETL): DataFlow, Data Pipeline
+
+ETL 支持流式数据抽取、转换与装载的高效实时加工工具
+ETL 组织并将多个系统中的数据合并到单个数据库、数据存储区、数据仓库或数据湖中的方法
+ETL 可用于存储旧数据, 也可用于汇总数据以进行分析(预测)并制定业务决策
+
+https://aws.amazon.com/cn/what-is/etl/
