@@ -1,0 +1,11 @@
+TODO. Event Driven Architecture: 异步解耦(decoupled)
+基于Event事件的生产和消费来启动系统的业务逻辑
+通过事件来触发(激活)不同层次的业务逻辑, 避免流程式编程
+
+- Event emitters (Publisher) 事件的发送者不关心消费者是否存在，获取事件后拿去做什么
+- Event consumers (Listener) 消费者应该对事件的发生作出反应Reaction
+- Event broker               传输事件/管理生命周期
+
+An Event structure 事件的本质是某个时刻某状态发生变化
+- header: event name, timestamp, type of event
+- body: details of the state

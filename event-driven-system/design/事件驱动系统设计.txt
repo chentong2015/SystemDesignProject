@@ -1,0 +1,6 @@
+Building distributed real-time data processing streams of events.
+- 事件数据的生产
+- 事件数据的消费
+
+事件驱动实现:
+https://spring.io/event-driven
