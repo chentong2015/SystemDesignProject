@@ -1,7 +1,7 @@
 package com.events.application.spring_app_event;
 
-import org.springframework.boot.ConfigurableBootstrapContext;
 import org.springframework.boot.SpringApplicationRunListener;
+import org.springframework.boot.bootstrap.ConfigurableBootstrapContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 
