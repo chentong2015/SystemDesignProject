@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SystemDesignProject.iml" filepath="$PROJECT_DIR$/SystemDesignProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caching-technology/caching-technology.iml" filepath="$PROJECT_DIR$/caching-technology/caching-technology.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system-concurrency/flash-sale-system/flash-sale-system.iml" filepath="$PROJECT_DIR$/system-concurrency/flash-sale-system/flash-sale-system.iml" />
+    </modules>
+  </component>
+</project>

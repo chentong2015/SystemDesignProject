@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/caching-technology/cache-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/caching-technology/cache-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/event-driven-system/event-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/event-driven-system/event-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/flash-sale-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/flash-sale-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/high-spike-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/high-spike-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/load-balancer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/load-balancer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/rate-limiter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/rate-limiter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/high-concurrency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/system-design-high/high_database/DB Backup.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/system-design-high/high_database/DB 主从结构.png" charset="GBK" />
+  </component>
+</project>

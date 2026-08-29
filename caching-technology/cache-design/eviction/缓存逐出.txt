@@ -1,0 +1,13 @@
+TODO. Cache Eviction 逐出策略 ？
+理论上随着缓存数据的日益增多，在容量有限的情况下缓存肯定会满
+1. 选择缓存逐出算法
+2. 设置适当的警戒值，当缓存数据达到80%时Warning，提前排查问题或者扩容
+3. 设置过期时间Expiration，针对没有必要长期保存的key
+4. 保证缓存逐出操作是O(1)线性级别的复杂度 !!
+
+FIFO(First In First Out) 不管缓存的使用频率
+LIFO(Last In First Out)
+LRU(Least Recently Used) 少使用的缓存应该被踢出
+MRU(Most Recently Used)
+LFU(Least Frequently Used)
+Random Replacement

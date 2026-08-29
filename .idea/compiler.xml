@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cache-system" />
+        <module name="rate-limiter" />
+        <module name="event-application" />
+        <module name="load-balancer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="caching-technology" target="1.8" />
+      <module name="event-driven-system" target="17" />
+      <module name="flash-sale-system" target="17" />
+      <module name="high-spike-system" target="17" />
+      <module name="system-concurrency" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

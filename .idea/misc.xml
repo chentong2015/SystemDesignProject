@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/system-concurrency/high-spike-system/pom.xml" />
+        <option value="$PROJECT_DIR$/system-concurrency/flash-sale-system/pom.xml" />
+        <option value="$PROJECT_DIR$/system-concurrency/rate-limiting/pom.xml" />
+        <option value="$PROJECT_DIR$/high-concurrency/rate-limiting/pom.xml" />
+        <option value="$PROJECT_DIR$/high-concurrency/load-balancer/pom.xml" />
+        <option value="$PROJECT_DIR$/high-concurrency/rate-limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/event-driven-system/pom.xml" />
+        <option value="$PROJECT_DIR$/caching-technology/pom.xml" />
+        <option value="$PROJECT_DIR$/event-driven-system/event-application/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>
